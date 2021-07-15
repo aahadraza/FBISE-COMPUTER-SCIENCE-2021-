@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	float radius;
+	float circum;
+	const float pi=3.14;
+	cout<<"enter the value of radius:"<<radius<<endl;
+	cin>>radius;
+	circum=2*pi*radius;
+	cout<<"the circumference of a circle is:"<<circum<<endl;
+	return(0);
+}
